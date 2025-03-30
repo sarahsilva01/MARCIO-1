@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "./styles.css";
 import { GetImageById } from "../../functions/utils";
 
-import pokemon_placeholder from "../../assets/img/pokemon-placeholder.png";
+import pokemon_placeholder from "../../assets/img/pokemon-placeholder.webp";
 
 const PokeCard = ({ name, id, types, click }) => {
   const [error, setError] = useState(false);
